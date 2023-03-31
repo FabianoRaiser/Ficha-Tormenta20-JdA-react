@@ -1,0 +1,12 @@
+.points-card {
+    margin: 1rem;
+    border: 1px solid #000;
+    border-bottom: 4px solid;
+    border-radius: 10px;
+
+    padding: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}

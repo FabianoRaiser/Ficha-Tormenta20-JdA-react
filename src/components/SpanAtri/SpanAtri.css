@@ -1,0 +1,22 @@
+.span-atri {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    border-radius: 10px;
+
+    width: 2rem;
+
+    padding: 8px;
+}
+
+.span-atri label {
+    font-weight: 700;
+    border-bottom: 1px solid #000;
+    border-radius: 5px;
+
+    margin-bottom: 0.5rem;
+}
+
+.span-atri span {
+    font-size: 24px;
+}

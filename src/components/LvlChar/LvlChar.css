@@ -1,0 +1,18 @@
+.lvl-char {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
+
+.lvl-char label {
+    font-weight: 700;
+}
+
+.lvl-char input {
+    border: none;
+    border-bottom: 1px solid #000;
+
+    width: 24px;
+
+    font-size: 16px;
+}

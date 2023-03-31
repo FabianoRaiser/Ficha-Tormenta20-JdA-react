@@ -1,0 +1,22 @@
+.select {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+
+    padding: 0.25rem 0;
+}
+
+.select label {
+    font-weight: 700;
+}
+
+.select select {
+    border: none;
+    border-bottom: 1px solid #000;
+
+    width: 100%;
+
+    font-size: 16px;
+    line-height: 20px;
+}
+

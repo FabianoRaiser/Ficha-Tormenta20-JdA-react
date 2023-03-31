@@ -1,0 +1,29 @@
+.atri-card {
+    margin: 1rem;
+    border: 1px solid #000;
+    border-bottom: 4px solid;
+    border-radius: 10px;
+
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.atri-card h3 {
+    margin: 0;
+}
+
+.atri-card p {
+    margin: 0;
+    padding-top: 16px;
+    
+}
+
+.atri-card div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2px;
+}
