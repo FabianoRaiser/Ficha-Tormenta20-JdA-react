@@ -2,6 +2,7 @@ import './App.css';
 import AtriCard from './components/AtriCard';
 import InfoCard from './components/InfoCard/';
 import PointsCard from './components/PointsCard';
+import SkillsCard from './components/SkillsCard';
 
 function App() {
 
@@ -365,16 +366,132 @@ function App() {
     },
   ]
 
+  const pericias = [
+    {
+      id: "per_01",
+      nome: "Acrobacia"
+    },
+    {
+      id: "per_02",
+      nome: "Adestramento"
+    },
+    {
+      id: "per_03",
+      nome: "Atletismo"
+    },
+    {
+      id: "per_04",
+      nome: "Atuação"
+    },
+    {
+      id: "per_05",
+      nome: "Cavalgar"
+    },
+    {
+      id: "per_06",
+      nome: "Conhecimento"
+    },
+    {
+      id: "per_07",
+      nome: "Cura"
+    },
+    {
+      id: "per_08",
+      nome: "Diplomacia"
+    },
+    {
+      id: "per_09",
+      nome: "Enganação"
+    },
+    {
+      id: "per_10",
+      nome: "Fortitude"
+    },
+    {
+      id: "per_11",
+      nome: "Furtividade"
+    },
+    {
+      id: "per_12",
+      nome: "Guerra"
+    },
+    {
+      id: "per_13",
+      nome: "Iniciativa"
+    },
+    {
+      id: "per_14",
+      nome: "Intimidação"
+    },
+    {
+      id: "per_15",
+      nome: "intuição"
+    },
+    {
+      id: "per_16",
+      nome: "Investigação"
+    },
+    {
+      id: "per_17",
+      nome: "Jogatina"
+    },
+    {
+      id: "per_18",
+      nome: "Luta"
+    },
+    {
+      id: "per_19",
+      nome: "Misticismo"
+    },
+    {
+      id: "per_20",
+      nome: "Nobreza"
+    },
+    {
+      id: "per_21",
+      nome: "Oficio"
+    },
+    {
+      id: "per_22",
+      nome: "Percepção"
+    },
+    {
+      id: "per_23",
+      nome: "Pilotagem"
+    },
+    {
+      id: "per_24",
+      nome: "Pontaria"
+    },
+    {
+      id: "per_25",
+      nome: "Reflexos"
+    },
+    {
+      id: "per_26",
+      nome: "Religião"
+    },
+    {
+      id: "per_27",
+      nome: "Sobrevivencia"
+    },
+    {
+      id: "per_28",
+      nome: "Vontade"
+    },
+  ]
+
   return (
     <div className="App">
       <InfoCard
         racas={racas}
         classes={classes}
         origens={origens}
-        divindades={divindades} 
+        divindades={divindades}
       />
       <AtriCard />
       <PointsCard />
+      <SkillsCard list={pericias}/>
     </div>
   );
 }
